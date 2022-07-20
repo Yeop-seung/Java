@@ -47,7 +47,7 @@ public class DigitTest {
 		for (int i = 0; i < arr.length; i++) {
 			int temp = Integer.MAX_VALUE;
 			int index = 0;
-			for (int j = 0; j < arr.length - i; j++) {
+			for (int j = 0; j < arr.length; j++) {
 				if (0 < arr[j] && arr[j] < temp) {
 					index = j;
 					temp = arr[j];
