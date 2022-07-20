@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            width : 300px;
+            border-collapse: collapse;
+        }
+        table , td ,th{
+            border : 1px solid #444;
+        }
+
+        table>tbody>tr>td{
+            padding: 10px  20px;
+
+        }
+        #t1 {
+            /* margin-top : 100px; */
+            margin :30px auto;
+        }
+    </style>
+</head>
+<body>
+    <table id ="t1">
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td colspan="3">6</td>
+            <td rowspan="2">7</td>
+            <td rowspan="3">8</td>
+        </tr>
+        <tr>
+            <td colspan="3">9</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>11</td>
+            <td colspan = "2">12</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <!-- element 간의 간격 margin-->
+
+
+    <table>
+        <thead>
+            <tr>
+                <th>번호1</th>
+                <th>번호2</th>
+                <th>번호3</th>
+                <th>번호4</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+            </tr>
+        </tbody>
+    </table>
+    <video width= "400" controls poster="../images/1.png" >
+        <source src="../data/test.mp4"/><!-- mp4 지원-->
+    </video>
+     <audio src="../data/test.mp3" controls></audio>    
+</body>
+</html>

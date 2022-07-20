@@ -1,0 +1,58 @@
+<!DOCTYPE html> <!-- html의 버전이 5버전임을 알려준다.-->
+<html> <!-- root element-->
+    <head><!-- head = 문서의 정보를 설정-->
+        <meta charset="utf-8">
+        <title>
+            연습 - 1
+        </title>
+        <style>
+            a {
+                text-decoration: none;
+                width : 100px;
+                display : inline-block;
+                border :5px solid red;
+            }
+            a:hover{
+                text-decoration: underline;
+            }
+            p, div , span {
+                border :5px solid red;
+                width: 100px;
+                height: 100px;
+            }
+            #d3 , #d2 {
+                display: none;
+            }
+        </style>
+    </head>
+    <body> 
+        <div>
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+        </div>
+        <div id = "d1">1</div>
+        <div id = "d2">2</div>
+        <div id = "d3">3</div>
+        안녕하세요<br>
+        오늘은 웹 관련 테스트합니다.
+
+        <p>
+            안녕하세요
+        </p><!-- 단락 태그 아래 공백을 확보해준다.-->
+
+        <a href="">블라블라</a><!-- css 적용됨-->
+        <a href="">블라블라2</a><!-- css 적용됨-->
+        <ul>
+            <li>자바</li>
+            <li>html</li>
+        </ul><!-- un orderd list-->
+        <div>DIV1 dud wdw awdaw awdaw </div>
+        <div>DIV2</div><!-- block level 내용과 상관없이 영역 설정 (크기 설정 가능)-->
+        <span>SPAN1 -21 1</span>
+        <span>SPAN2</span><!-- inline 내용에 맞춰서 영역설정 -->
+    </body> <!-- body =  브라우저에 보여질 내용-->    
+            <!-- 메모리에 올려준다. Dom -> 문서에 대해서 개체 모델을 메모리에 올린다.-->
+            <!-- 대소문자를 태그이름에서 구분하지 않지만 소문자를 권장 -->
+
+</html>
